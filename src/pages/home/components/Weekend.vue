@@ -34,7 +34,7 @@ export default {
   .wrapper
     overflow: hidden
     height: 0
-    padding-bottom: 31.24%
+    padding-bottom: 51.34%
     .wrapper-img
       width: 100%
   .content

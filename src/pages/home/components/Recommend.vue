@@ -42,7 +42,7 @@ export default {
     display: flex
     height: 1.9rem
     .item-img
-      width: 2.7rem
+      width: 3.7rem
       height: 1.7rem
       padding: .2rem
     .item-info
