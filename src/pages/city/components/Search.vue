@@ -12,6 +12,7 @@
           class="search-item border-bottom"
           v-for="item of list"
           :key="item.id"
+          @click="handleCityChange(item.name)"
         >
           {{item.name}}
         </li>
@@ -60,6 +61,12 @@ export default {
         }
         this.list = result
       }, 100)
+    }
+  },
+  methods: {
+    handleCityChange (city) {
+      this.$store.commit('changeCity', city)
+      this.$router.push('/')
     }
   },
   mounted () {
